@@ -6,7 +6,7 @@ import "./LandingStyles.css";
 
 function LandingPage({ history }) {
   const userLogin = useSelector((state) => state.userLogin);
-  const { userInfo } = userLogin;
+  const { userInfo } = 
 
   useEffect(() => {
     if (userInfo) {
